@@ -10,19 +10,38 @@
 <body>
     <header class="top">
         <h1>Weather Dashboard</h1>
+        <p id="currentDay" class="lead"></p>
     </header>
     
 
     <main>
-        <div class="sideBar">
+        <div class="lSide">
            <form action="" class="form">
             <div class="formContent">
-                <label for="citySearch">Search for a City:</label>
+                <label id="searchFld" for="citySearch">Search for a City:</label>
                 <input type="text" placeholder="City">
-                <button id="">Search</button>
+                <button id="searchBtn">Search</button>
             </div>
            </form>
         </div>
+
+        <div id="results">
+            <!-- results -->
+        </div>
+
+        <div class="rSide">
+
+
+
+        </div>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
