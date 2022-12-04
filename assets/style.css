@@ -6,17 +6,53 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(53, 53, 177);
     padding: 5px;
     font-size: large;
     width: 100%;    
     text-align: center;
 }
 
-.sidebar {
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    width: 33%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input {
+    display: flex;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.btn {
+    background-color: chartreuse;
+    width: 75%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.break {
     display: flex;
 }
 
-form {
-    
+.formContent {
+    flex-direction: column;
+}
+input {
+    flex-direction: column;
+}
+
+.form {
+    flex-direction: column;
 }
