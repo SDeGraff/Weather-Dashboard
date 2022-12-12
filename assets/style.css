@@ -30,12 +30,12 @@ label {
     display: flex;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 100%;
+    width: 60%;
 }
 
 .btn {
     background-color: chartreuse;
-    width: 75%;
+    width: 60%;
     height: 30px;
     margin-top: 10px;
     border-radius: 6px;
